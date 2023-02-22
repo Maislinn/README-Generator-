@@ -31,7 +31,7 @@ const questions = [
         type: 'input',
         name: 'features',
         message: 'What are the features of your project? List them here.',
-    }
+    },
     {
         type: 'input',
         name: 'credits',
@@ -41,6 +41,7 @@ const questions = [
         type: 'input',
         name: 'license',
         message: 'What license did you use to develop your project?',
+        choices: ['MIT', 'GNU GPLv3', 'Apache 2.0', 'BSD 3', 'None'],
     },
     {
         type: 'input',
@@ -51,7 +52,7 @@ const questions = [
         type: 'input',
         name: 'contributing',
         message: 'How can others contribute to your project?',
-    }
+    },
     {
         type: 'input',
         name: 'test',
@@ -69,12 +70,10 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((data) => {
-        writeToFile(fileName, data) => {
-            const readme = generateMarkdown(data);
-            writeToFile(fileName, readme)
-        }
+        writeToFile(fileName, data);
     });
 }
+
 
 // Function call to initialize app
 init();
