@@ -23,8 +23,8 @@ To use this README generator:
 - node.js
 ## Credits
 - UC Berkeley Extension 2023
-- [GitHub] (https://docs.github.com/en)
-- [Stackoverflow] (https://stackoverflow.com/)
+- [GitHub](https://docs.github.com/en)
+- [Stackoverflow](https://stackoverflow.com/)
 
 ## License
 
