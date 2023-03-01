@@ -19,6 +19,9 @@ To use this README generator:
     1. Open the integrated terminal window
     2. Run your installations with NPM I
     3. Run the index file with command Node Index.JS
+
+![Alt text](/Assets/ScreenshotProject.png)
+![Alt text](/Assets/ScreenRecordingDemo.mov)
 ## Features
 - node.js
 ## Credits

@@ -19,7 +19,7 @@ function renderLicenseBadge(license) {
       licenseBadge = "";
       break;
   }
-  return licenseBadge;
+  //return licenseBadge;
 }
 
 // TODO: Create a function that returns the license link
@@ -43,7 +43,7 @@ function renderLicenseLink(license) {
       licenseLink = "";
       break;
   }
-  return licenseLink;
+  //return licenseLink;
 }
 
 // TODO: Create a function that returns the license section of README
@@ -108,7 +108,7 @@ function generateMarkdown(data) {
   ${data.Contributing}
 
   ## Tests
-  ${data.Tests}
+  ${data.Test}
 
   ## Questions
   If you have any questions, please contact me at ${data.email}. You can find more of my work at [${data.github}](https://github.com/${data.github}).

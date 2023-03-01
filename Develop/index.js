@@ -9,53 +9,53 @@ const fileName = 'README.md';
 const questions = [
     {
         type: 'input',
-        name: 'title',
+        name: 'Title',
         message: 'What is the title of your project?',
     },
     {
         type: 'input',
-        name: 'description',
+        name: 'Description',
         message: 'Lets write a description of your project: What was your motivation? Why did you build this project? What does this solve? What did you learn?',
     },
     {
         type: 'input',
-        name: 'installation',
+        name: 'Installation',
         message: 'What are the steps required to install your project?',
     },
     {
         type: 'input',
-        name: 'usage',
+        name: 'Usage',
         message: 'What are the steps required to use your project? Include screenshots here.',
     },
     {
         type: 'input',
-        name: 'features',
+        name: 'Features',
         message: 'What are the features of your project? List them here.',
     },
     {
         type: 'input',
-        name: 'credits',
+        name: 'Credits',
         message: 'Who collaborated with this project? Links to Github profiles here.',
     },
     {
         type: 'input',
-        name: 'license',
+        name: 'License',
         message: 'What license did you use to develop your project?',
         choices: ['MIT', 'GNU GPLv3', 'Apache 2.0', 'BSD 3', 'None'],
     },
     {
         type: 'input',
-        name: 'badges',
+        name: 'Badges',
         message: 'Include badges here. Checkout the badges on badmath and shields.io.',
     },
     {
         type: 'input',
-        name: 'contributing',
+        name: 'Contributing',
         message: 'How can others contribute to your project?',
     },
     {
         type: 'input',
-        name: 'test',
+        name: 'Test',
         message: 'Examples of how to test your project? Include screenshots here.',
     }
 ];
